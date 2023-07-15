@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+   .card{
+      @apply border-t-4 border-solid bg-white p-4 max-w-md sm:aspect-[3/1.5];
+   }
+   .card h2{
+      @apply text-lg text-gray-700 font-bold;
+   }
+   .card img{
+      @apply mt-10 ml-auto;
+   }
+
+}
