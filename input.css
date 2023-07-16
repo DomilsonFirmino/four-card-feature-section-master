@@ -4,10 +4,10 @@
 
 @layer components{
    .card{
-      @apply border-t-4 border-solid bg-white p-4 max-w-md sm:aspect-[3/1.5];
+      @apply border-t-4 border-solid bg-white p-4 max-w-md sm:aspect-[3/1.5] shadow hover:shadow-xl rounded-md transition ease-in-out duration-75 hover:cursor-[pointer];
    }
    .card h2{
-      @apply text-lg text-gray-700 font-bold;
+      @apply text-lg text-darkBlue font-bold;
    }
    .card img{
       @apply mt-10 ml-auto;
